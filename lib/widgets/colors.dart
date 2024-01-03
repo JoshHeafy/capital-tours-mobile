@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+
+const Color primaryColor = Color(0xFF0EF6CC);
+const Color secondarycolor = Color(0xFFF4FEFD);
+const Color primaryAppColor = Color(0xFF3A4F50);
+const Color successColor = Color(0xFF1AAC91);
+const Color infoColor = Color(0xFF0dcaf0);
+const Color warningColor = Color(0xFFFFFB00);
+const Color amberColor = Color(0xFFFF8400);
+const Color dangerColor = Color(0xFFdc3545);
+const Color grayDarkColor = Color(0xFF343a40);
+const Color grayColor = Color(0xFF3A4F50);
+const Color greencolor = Color(0xFF08e2bb);
+const Color brawnColor = Color(0xFF964B00);
+const Color grayColor200 = Color(0xffEEEEEE);
+const Color lightColor = Color(0xFFf6f6f6);
+const Color darkColor = Color(0xFF1B2223);
+const Color femaleColor = Color(0xFFFF55BB);
+const Color maleColor = Color(0XFF30A2FF);
+const Color greenpie = Color(0XFFF6FFDE);
+const Color saturatedGreen = Color(0XFF0e813c);
+const Color glassColor = Color.fromARGB(255, 134, 170, 159);
+const Color transparentColor = Color.fromARGB(150, 255, 255, 255);
+const Icon iconemail = Icon(Icons.email);

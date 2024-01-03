@@ -1,0 +1,40 @@
+name: capital_tours_mobile
+description: Geolocalization app to CapitalTours.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-258.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_map: ^5.0.0
+  http: ^1.1.0
+  flutter_svg: ^2.0.7
+  get: ^4.6.5
+  fluttertoast: ^8.2.2
+  localstore: ^1.3.5
+  flutter_spinkit: ^5.2.0
+  geocoding: ^2.1.0
+  geolocator: ^10.0.0
+  permission_handler: ^10.4.3
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
