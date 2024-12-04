@@ -84,10 +84,12 @@ class _SidebarState extends State<Sidebar> {
             accountEmail: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
+                Wrap(
+                  alignment: WrapAlignment.start,
+                  spacing: 10,
                   children: [
                     Row(
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         const Icon(Icons.email, color: Colors.white),
                         Padding(
@@ -95,12 +97,16 @@ class _SidebarState extends State<Sidebar> {
                           child: Text(
                             dataPropietario["email"].toString().toLowerCase(),
                             style: const TextStyle(
-                                color: Colors.white, fontSize: 15),
+                              color: Colors.white,
+                              fontSize: 15,
+                            ),
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                       ],
                     ),
                     Row(
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         const Padding(
                           padding: EdgeInsets.only(left: 5),
@@ -112,7 +118,10 @@ class _SidebarState extends State<Sidebar> {
                           child: Text(
                             dataUser["numero_placa"].toString().toUpperCase(),
                             style: const TextStyle(
-                                color: Colors.white, fontSize: 15),
+                              color: Colors.white,
+                              fontSize: 15,
+                            ),
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                       ],
